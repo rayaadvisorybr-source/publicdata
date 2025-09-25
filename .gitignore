@@ -1,0 +1,60 @@
+# Arquivos de Bytecode e Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes Virtuais
+# Substitua 'venv' pelo nome da sua pasta de ambiente virtual, se for diferente.
+venv/
+.venv/
+env/
+.env/
+venv.bak/
+.env.bak/
+
+# Arquivos de Dependências do Pip
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Arquivos de Teste
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Bancos de Dados SQLite
+*.sqlite3
+*.db
+
+# Arquivos de Configuração de Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de Sistema do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Arquivos de Log
+*.log
+logs/
+
+# Arquivos de configuração de ambiente (nunca commitar senhas ou chaves de API!)
+.env
+.env.local
+.env.*.local
+config.ini
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints
